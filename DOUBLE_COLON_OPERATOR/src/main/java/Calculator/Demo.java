@@ -1,5 +1,7 @@
 package Calculator;
 
+import java.util.function.Consumer;
+
 public class Demo {
     public static void main(String[] args) {
 
@@ -16,5 +18,8 @@ public class Demo {
 
         Calculate calculate4 = new Calculator()::findMultiply;
         calculate4.calculate(10, 5);
+
+        Consumer<Integer> display = i-> System.out.println(i);
+        display.accept(20);
     }
 }
