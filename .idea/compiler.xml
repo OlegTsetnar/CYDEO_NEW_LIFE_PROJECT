@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="LAMBDA" />
         <module name="DOUBLE_COLON_OPERATOR" />
+        <module name="COMPARATOR" />
       </profile>
     </annotationProcessing>
   </component>

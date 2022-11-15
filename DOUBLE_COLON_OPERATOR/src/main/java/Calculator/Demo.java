@@ -1,5 +1,6 @@
 package Calculator;
 
+import java.util.function.BiFunction;
 import java.util.function.Consumer;
 
 public class Demo {
@@ -21,5 +22,12 @@ public class Demo {
 
         Consumer<Integer> display = i-> System.out.println(i);
         display.accept(20);
+
+        //____ We provide type "MyClass" to call instance method directly
+
+        BiFunction<MyClass,Integer,Double> consumer1= MyClass::method;
+
+        BiFunction<String,String,String> str = String::concat;
+
     }
 }
