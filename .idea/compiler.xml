@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="LAMBDA_STREAM" />
+        <module name="DATA_STRURCURE" />
         <module name="LAMBDA" />
         <module name="DOUBLE_COLON_OPERATOR" />
         <module name="COMPARATOR" />
