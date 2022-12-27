@@ -27,7 +27,7 @@ public class MySingleLinkedList {
         if (isEmpty()) {
             head = tail = node;      //1;
         } else { // add element to last position
-            tail.next = node;               //1,2
+            tail.next = node;               //1,2 add first tail of previous node then node
             tail = node;
         }
         size++;
