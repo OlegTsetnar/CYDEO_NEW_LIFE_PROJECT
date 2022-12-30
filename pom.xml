@@ -14,6 +14,9 @@
         <module>COMPARATOR</module>
         <module>LAMBDA_STREAM</module>
         <module>DATA_STRURCURE</module>
+        <module>PROJECT_01</module>
+        <module>PROJECT_02_SPRING_CORE_IoC</module>
+        <module>PROJECT_02_SPRING_CORE_WIRING</module>
     </modules>
 
     <properties>

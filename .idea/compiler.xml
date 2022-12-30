@@ -8,11 +8,17 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="LAMBDA_STREAM" />
+        <module name="PROJECT_02_SPRING_CORE_IoC" />
         <module name="DATA_STRURCURE" />
+        <module name="COMPARATOR" />
+        <module name="PROJECT_01" />
+        <module name="PROJECT_02_SPRING_CORE_WIRING" />
         <module name="LAMBDA" />
         <module name="DOUBLE_COLON_OPERATOR" />
-        <module name="COMPARATOR" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="PROJECT_01_SPRINT_LOSSELY" target="11" />
+    </bytecodeTargetLevel>
   </component>
 </project>
