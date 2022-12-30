@@ -7,6 +7,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="PROJECT_03_SPRING_CORE_DEPENDENCY_INGECT" />
         <module name="LAMBDA_STREAM" />
         <module name="PROJECT_02_SPRING_CORE_IoC" />
         <module name="DATA_STRURCURE" />
