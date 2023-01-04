@@ -18,6 +18,9 @@
         <module>PROJECT_02_SPRING_CORE_IoC</module>
         <module>PROJECT_02_SPRING_CORE_WIRING</module>
         <module>PROJECT_03_SPRING_CORE_DEPENDENCY_INGECT</module>
+        <module>PROJECT_04_ABSTRACTION</module>
+        <module>PROJECT_05_BEAN_SCOPE</module>
+        <module>FRONT_END_CONCEPTS</module>
     </modules>
 
     <properties>
