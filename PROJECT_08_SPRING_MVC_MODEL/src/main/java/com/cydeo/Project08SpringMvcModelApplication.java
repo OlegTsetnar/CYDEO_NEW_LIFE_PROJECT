@@ -8,6 +8,7 @@ public class Project08SpringMvcModelApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(Project08SpringMvcModelApplication.class, args);
+
     }
 
 }
