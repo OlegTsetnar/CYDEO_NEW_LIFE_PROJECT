@@ -20,7 +20,7 @@
         <module>PROJECT_03_SPRING_CORE_DEPENDENCY_INGECT</module>
         <module>PROJECT_04_ABSTRACTION</module>
         <module>PROJECT_05_BEAN_SCOPE</module>
-        <module>PROJECT_08_SPRING_MVC_MODEL_CONTINUE</module>
+
     </modules>
 
     <properties>
