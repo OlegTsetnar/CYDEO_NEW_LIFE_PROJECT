@@ -2,5 +2,9 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/PROJECT_06_SPRING_BOOT_DEMO/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/PROJECT_07_SPRING_MVC_CONTROLLER/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/PROJECT_08_SPRING_MVC_MODEL/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/PROJECT_08_SPRING_MVC_MODEL_CONTINUE/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/PROJECT_09_SPRING_THYMELEAF/src/main/java" charset="UTF-8" />
   </component>
 </project>

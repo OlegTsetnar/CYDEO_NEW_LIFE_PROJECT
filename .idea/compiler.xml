@@ -8,26 +8,35 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="PROJECT_03_SPRING_CORE_DEPENDENCY_INGECT" />
-        <module name="LAMBDA_STREAM" />
-        <module name="PROJECT_02_SPRING_CORE_IoC" />
         <module name="PROJECT_05_BEAN_SCOPE" />
-        <module name="DATA_STRURCURE" />
+        <module name="PROJECT_09_SPRING_THYMELEAF" />
         <module name="COMPARATOR" />
-        <module name="PROJECT_01" />
         <module name="PROJECT_02_SPRING_CORE_WIRING" />
         <module name="PROJECT_06_SPRING_BOOT_DEMO" />
         <module name="LAMBDA" />
-        <module name="DOUBLE_COLON_OPERATOR" />
         <module name="PROJECT_04_ABSTRACTION" />
+        <module name="LAMBDA_STREAM" />
+        <module name="PROJECT_02_SPRING_CORE_IoC" />
+        <module name="DATA_STRURCURE" />
+        <module name="PROJECT_01" />
+        <module name="PROJECT_07_SPRING_MVC_CONTROLLER" />
+        <module name="DOUBLE_COLON_OPERATOR" />
+        <module name="PROJECT_08_SPRING_MVC_MODEL" />
+        <module name="PROJECT_08_1_MVC_MODEOL_CONTINUE" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="PROJECT_01_SPRINT_LOSSELY" target="11" />
+      <module name="PROJECT_08_SPRING_MVC_MODEOL_CONTINUE" target="1.5" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="PROJECT_06_SPRING_BOOT_DEMO" options="-parameters" />
+      <module name="PROJECT_07_SPRING_MVC_CONTROLLER" options="-parameters" />
+      <module name="PROJECT_08_1_MVC_MODEOL_CONTINUE" options="-parameters" />
+      <module name="PROJECT_08_SPRING_MVC_MODEL" options="-parameters" />
+      <module name="PROJECT_09_SPRING_THYMELEAF" options="-parameters" />
     </option>
   </component>
 </project>

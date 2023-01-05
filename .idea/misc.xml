@@ -7,7 +7,16 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/PROJECT_01_SPRINT_LOSSELY/pom.xml" />
         <option value="$PROJECT_DIR$/PROJECT_06_SPRING_BOOT_DEMO/pom.xml" />
+        <option value="$PROJECT_DIR$/PROJECT_07_SPRING_MVC_CONTROLLER/pom.xml" />
+        <option value="$PROJECT_DIR$/PROJECT_08_SPRING_MVC_MODEL/pom.xml" />
+        <option value="$PROJECT_DIR$/PROJECT_09_SPRING_THYMELEAF/pom.xml" />
+        <option value="$PROJECT_DIR$/PROJECT_08.1_MVC_MODEOL_CONTINUE/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/PROJECT_08_SPRING_MVC_MODEOL_CONTINUE/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
