@@ -10,6 +10,7 @@
         <module name="PROJECT_03_SPRING_CORE_DEPENDENCY_INGECT" />
         <module name="PROJECT_05_BEAN_SCOPE" />
         <module name="PROJECT_09_SPRING_THYMELEAF" />
+        <module name="PROJECT_10_SPRING_THYMELEAF" />
         <module name="COMPARATOR" />
         <module name="PROJECT_02_SPRING_CORE_WIRING" />
         <module name="PROJECT_06_SPRING_BOOT_DEMO" />
@@ -28,6 +29,7 @@
     <bytecodeTargetLevel>
       <module name="PROJECT_01_SPRINT_LOSSELY" target="11" />
       <module name="PROJECT_08_SPRING_MVC_MODEOL_CONTINUE" target="1.5" />
+      <module name="PROJECT_10" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -37,6 +39,7 @@
       <module name="PROJECT_08_1_MVC_MODEOL_CONTINUE" options="-parameters" />
       <module name="PROJECT_08_SPRING_MVC_MODEL" options="-parameters" />
       <module name="PROJECT_09_SPRING_THYMELEAF" options="-parameters" />
+      <module name="PROJECT_10_SPRING_THYMELEAF" options="-parameters" />
     </option>
   </component>
 </project>
