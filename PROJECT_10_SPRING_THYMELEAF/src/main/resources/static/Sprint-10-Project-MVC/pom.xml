@@ -5,14 +5,14 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.6.5</version>
+        <version>2.6.6</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.example</groupId>
-    <artifactId>PROJECT_10_SPRING_THYMELEAF</artifactId>
+    <groupId>com.cydeo</groupId>
+    <artifactId>Sprint-10-Project-MVC</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>PROJECT_10_SPRING_THYMELEAF</name>
-    <description>PROJECT_10_SPRING_THYMELEAF</description>
+    <name>Sprint-10-Project-MVC</name>
+    <description>Sprint-10-Project-MVC</description>
     <properties>
         <java.version>11</java.version>
     </properties>
@@ -37,18 +37,11 @@
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>com.arakelian</groupId>
-            <artifactId>faker</artifactId>
-            <version>3.10.0</version>
-        </dependency>
-        <dependency>
-            <groupId>com.github.javafaker</groupId>
-            <artifactId>javafaker</artifactId>
-            <version>1.0.2</version>
+            <groupId>jakarta.validation</groupId>
+            <artifactId>jakarta.validation-api</artifactId>
+            <version>2.0.2</version>
         </dependency>
     </dependencies>
-
-
 
     <build>
         <plugins>
