@@ -13,25 +13,32 @@
 </head>
 <body>
 
-<!--Container from Boostrap also we JUSTIFY this container from Boostrap-->
+<!--Container from getBoostrap also we JUSTIFY this container from getBoostrap-->
 <div class="container d-flex justify-content-center">
 
-    <!-- Card with card body from Boostrap.com  -->
+    <!-- Card with card body from getBoostrap.com  -->
     <div class="card">
         <!-- HEADER of CARD -->
+        <!--Added Background color "bg-info text-white" form getBoostrap -->
+        <!--Added size of text p-5-->
         <h2 class="card-header bg-info text-white p-5">
             Welcome to Employee Registration Page
         </h2>
         <div class="card-body">
 
-            <!-- Form inside of CARD body from Boostrap.com  -->
+            <!-- Form inside of CARD body from getBoostrap.com  -->
+            <!--add thymeleaf object with th:object="${employee}" -->
+            <!--When we click on register button we need some action: we added link th:action="@{/employee/list} and method="post"-->
             <form th:object="${employee}" th:action="@{/employee/list}" method="post">
                 <div class="form-row">
                     <!--First row: First name; Last Name; Birthday-->
+                    <!--split "col" for 3 same sizes (total:12)-->
+                    <!--We are binding all fields with th:field="*{firstName}"-->
                     <div class="form-group col">
                         <label for="inputFirstName4">First Name</label>
                         <input type="text" class="form-control" id="inputFirstName4" placeholder="First Name"
                                th:field="*{firstName}">
+                        <!--catch error-->
                         <div th:if="${#fields.hasErrors('firstName')}">
                             <ol>
                                 <li th:each="error : ${#fields.errors('firstName')}" th:text="${error}"></li>
@@ -73,7 +80,7 @@
                     <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor"
                            th:field="*{address2}">
                 </div>
-                <!--5th row: City, Stat, Zip-->
+                <!--5th row: City, State, Zip-->
                 <div class="form-row">
                     <div class="form-group col-md-6">
                         <label for="inputCity">City</label>
@@ -82,6 +89,7 @@
                     <div class="form-group col-md-4">
                         <label for="inputState">State</label>
 
+                        <!--Iterate and add states to Dropdown-->
                         <select id="inputState" class="form-control" th:field="*{state}">
                             <option th:each="state: ${states}" th:text="${state}" th:value="${state}"></option>
                         </select>

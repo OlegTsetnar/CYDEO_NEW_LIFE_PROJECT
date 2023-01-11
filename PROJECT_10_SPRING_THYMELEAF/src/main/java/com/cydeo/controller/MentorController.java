@@ -21,7 +21,7 @@ public class MentorController {
         List<String> batchList = Arrays.asList("JD1", "JD2", "EU1", "EU2", "B18", "B20");
         model.addAttribute("batchList", batchList);
 
-        return "mentor/mentor-register";
+        return "/mentor/mentor-register";
     }
 
     @PostMapping("/confirm") // use POST after when we fill out the fields and want to POST
@@ -29,7 +29,7 @@ public class MentorController {
 
         System.out.println(mentor); // to check it out
 
-               return "mentor/mentor-confirmation";
+               return "/mentor/mentor-confirmation";
        // return "redirect:/mentor/register";             // redirect to page which is mention
     }
 }

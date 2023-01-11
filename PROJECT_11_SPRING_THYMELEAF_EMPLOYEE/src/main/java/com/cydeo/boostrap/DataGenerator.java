@@ -10,7 +10,7 @@ public class DataGenerator {
 
     private static List<Employee> employeeList = new ArrayList<>();
 
-    private static void safeEmployee(Employee employee) {
+    public static void safeEmployee(Employee employee) {
         employeeList.add(employee);
     }
 

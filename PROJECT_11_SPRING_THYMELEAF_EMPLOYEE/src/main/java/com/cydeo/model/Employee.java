@@ -1,11 +1,14 @@
 package com.cydeo.model;
 
 
+
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.springframework.format.annotation.DateTimeFormat;
 
+import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.Size;
 import java.time.LocalDate;
 
 @AllArgsConstructor
@@ -18,7 +21,8 @@ public class Employee {
     //    @NotEmpty           // Except null and empty String anything can be accepted
     //    @NotBlank           // Except null, empty String and only space anything can be accepted.
 
-
+   @NotBlank   // Oleg
+   @Size(max = 12, min = 2)
     private String firstName;
     private String lastName;
 
