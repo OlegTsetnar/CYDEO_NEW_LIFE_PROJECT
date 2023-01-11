@@ -20,6 +20,13 @@
         <module>PROJECT_03_SPRING_CORE_DEPENDENCY_INGECT</module>
         <module>PROJECT_04_ABSTRACTION</module>
         <module>PROJECT_05_BEAN_SCOPE</module>
+        <module>PROJECT_06_SPRING_BOOT_DEMO</module>
+        <module>PROJECT_07_SPRING_MVC_CONTROLLER</module>
+        <module>PROJECT_08_SPRING_MVC_MODEL</module>
+        <module>PROJECT_09_SPRING_THYMELEAF</module>
+        <module>PROJECT_10_SPRING_THYMELEAF</module>
+        <module>PROJECT_11_SPRING_THYMELEAF_EMPLOYEE</module>
+
 
     </modules>
 

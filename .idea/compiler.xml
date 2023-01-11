@@ -13,6 +13,7 @@
         <module name="PROJECT_10_SPRING_THYMELEAF" />
         <module name="COMPARATOR" />
         <module name="PROJECT_02_SPRING_CORE_WIRING" />
+        <module name="PROJECT_11_SPRING_THYMELEAF_EMPLOYEE" />
         <module name="PROJECT_06_SPRING_BOOT_DEMO" />
         <module name="LAMBDA" />
         <module name="PROJECT_04_ABSTRACTION" />
@@ -40,6 +41,7 @@
       <module name="PROJECT_08_SPRING_MVC_MODEL" options="-parameters" />
       <module name="PROJECT_09_SPRING_THYMELEAF" options="-parameters" />
       <module name="PROJECT_10_SPRING_THYMELEAF" options="-parameters" />
+      <module name="PROJECT_11_SPRING_THYMELEAF_EMPLOYEE" options="-parameters" />
     </option>
   </component>
 </project>
